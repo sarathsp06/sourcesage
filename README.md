@@ -1,4 +1,7 @@
 # SourceSage: Efficient Code Memory for LLMs
+<a href="https://glama.ai/mcp/servers/@sarathsp06/sourcesage">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@sarathsp06/sourcesage/badge" />
+</a>
 
 SourceSage is an MCP (Model Context Protocol) server that efficiently memorizes key aspects of a codebase—logic, style, and standards—while allowing dynamic updates and fast retrieval. It's designed to be language-agnostic, leveraging the LLM's understanding of code across multiple languages.
 
