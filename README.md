@@ -66,12 +66,15 @@ If you've installed the package:
 If you're running from a local directory without installing:
 ```json
 {
-  "mcpServers": {
-    "sourcesage": {
-      "command": "python",
-      "args": ["/path/to/sourcesage/main.py"]
-    }
-  }
+  "sourcesage": {
+      "command": "uv", 
+      "args": [
+        "--directory",
+        "/path/to/sourcesage",
+        "run",
+        "main.py"
+      ]
+    },
 }
 ```
 
